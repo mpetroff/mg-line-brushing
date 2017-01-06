@@ -89,6 +89,7 @@ function brushing() {
 
     // mouseup, finish area selection
     svg.on('mouseup', function() {
+        args = chartContext.args;
         mouseDown = false;
         svg.classed('mg-brushing-in-progress', false);
 
