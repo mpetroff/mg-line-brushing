@@ -25,8 +25,10 @@ MG.line_brushing = {
       current = history.current;
       history.original = current;
 
-      args.min_y = current.min_y;
-      args.max_y = current.max_y;
+      if (current !== undefined && args !== undefined) {
+        args.min_y = current.min_y;
+        args.max_y = current.max_y;
+      }
 
       history.steps = [];
     }
