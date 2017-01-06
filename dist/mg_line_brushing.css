@@ -2,7 +2,7 @@
   cursor: crosshair; }
 
 .mg-brush-container.mg-brushing {
-  cursor: ew-resize; }
+  cursor: ns-resize; }
 
 .mg-brushed, .mg-brushed * {
   cursor: zoom-out !important; }

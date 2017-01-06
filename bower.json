@@ -30,7 +30,7 @@
     "README.md"
   ],
   "devDependencies": {
-    "metrics-graphics": "git://github.com/dandehavilland/metrics-graphics.git#hooks",
+    "metrics-graphics": "~2.11",
     "qunit": "~1.17.1",
     "font-awesome": "~4.3.0",
     "bootstrap": "~3.3.2",

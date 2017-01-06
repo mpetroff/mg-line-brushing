@@ -16,8 +16,6 @@ MG.line_brushing = {
       current = history.current;
       history.original = current;
 
-      args.min_x = current.min_x;
-      args.max_x = current.max_x;
       args.min_y = current.min_y;
       args.max_y = current.max_y;
 
